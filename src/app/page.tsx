@@ -164,7 +164,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="skills" className="min-h-screen flex items-center ml-32">
+        <section id="skills" className="min-h-screen flex items-center md:ml-32">
           <div className="container mx-auto px-6 py-12">
             <h2 className="text-3xl font-bold text-amber-500 mb-8">
               My Skills
