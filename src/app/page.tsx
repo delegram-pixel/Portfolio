@@ -9,6 +9,7 @@ import {
   Linkedin,
   Search,
   PhoneIcon as WhatsApp,
+  Github,
 } from "lucide-react";
 import SkillsGrid from "./components/skills-grid";
 import { PortfolioCard } from "./components/PortfolioCard";
@@ -18,7 +19,7 @@ export default function Home() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ["home", "about", "skills", "portfolio", "contact"];
+      const sections = ["home", "about", "skills", "project", "contact"];
       const scrollPosition = window.scrollY + 100;
 
       for (const section of sections) {
@@ -57,11 +58,11 @@ export default function Home() {
     },
     {
       id: 3,
-      title: "Zypo",
+      title: "Ivent waitlist",
       description:
-        "Created an intuitive and engaging educational platform for Xypo, emphasizing accessible learning and knowledge-sharing. The design features a modern and inviting interface that connects users with resources effortlessly.",
-      image: "/xypo.png",
-      link: "https://zypo.vercel.app/",
+        "This feature allows users to join a waitlist for Iventverse before it launches. With real-time updates, users are notified when spots become available, ensuring they never miss out on their desired events",
+      image: "/demo.png",
+      link: "https://iventdemo.vercel.app/",
     },
   ];
 
@@ -173,7 +174,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="portfolio" className="min-h-screen flex items-center">
+        <section id="project" className="min-h-screen flex items-center">
           <div className="container mx-auto px-6 py-12">
             <h2 className="text-3xl font-bold text-amber-500 mb-6">
               My Projects
@@ -276,6 +277,12 @@ export default function Home() {
                   className="text-gray-400 hover:text-amber-500 transition-colors"
                 >
                   <WhatsApp className="h-5 w-5" />
+                </a>
+
+                <a href="https://github.com/delegram-pixel"
+                 className="text-gray-400 hover:text-amber-500 transition-colors"
+                 >
+                  <Github className="h-5 w-5" />
                 </a>
               </div>
             </div>

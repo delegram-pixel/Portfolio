@@ -30,7 +30,7 @@ function SkillsGrid() {
           whileTap={{ scale: 0.95 }}
          
         >
-          <div className="w-12 h-12 mb-2">
+          <div className="w-20 h-20 mb-2">
             <img
               src={skill.icon}
               alt={skill.name}
