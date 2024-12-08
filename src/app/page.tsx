@@ -10,7 +10,7 @@ import {
   Search,
   PhoneIcon as WhatsApp,
 } from "lucide-react";
-import Skills from "./components/skills-grid";
+import SkillsGrid from "./components/skills-grid";
 import { PortfolioCard } from "./components/PortfolioCard";
 
 export default function Home() {
@@ -164,12 +164,12 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="skills" className="min-h-screen flex items-center">
+        <section id="skills" className="min-h-screen flex items-center ml-32">
           <div className="container mx-auto px-6 py-12">
             <h2 className="text-3xl font-bold text-amber-500 mb-8">
               My Skills
             </h2>
-            <Skills />
+            <SkillsGrid />
           </div>
         </section>
 
