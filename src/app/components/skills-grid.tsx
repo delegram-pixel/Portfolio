@@ -1,7 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
-
+import Image from 'next/image';
 interface Skill {
   name: string;
   icon: string;
@@ -31,7 +31,7 @@ function SkillsGrid() {
          
         >
           <div className="w-20 h-20 mb-2">
-            <img
+            <Image
               src={skill.icon}
               alt={skill.name}
               className="w-full h-full object-contain"

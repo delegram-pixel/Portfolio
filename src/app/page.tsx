@@ -64,6 +64,22 @@ export default function Home() {
       image: "/demo.png",
       link: "https://iventdemo.vercel.app/",
     },
+    {
+      id: 4,
+      title: "Mindful Inbox Flow",
+      description:
+        "A project that revolutionizes how professionals handle their daily communications by leveraging AI to create more meaningful and productive workflows.",
+      image: "/inbox.png",
+      link: "https://mindful-inbox-flow.vercel.app/",
+    },
+    // {
+    //   id: 5,
+    //   title: "Mindful Inbox Flow",
+    //   description:
+    //     "A project that revolutionizes how professionals handle their daily communications by leveraging AI to create more meaningful and productive workflows.",
+    //   image: "/inbox.png",
+    //   link: "https://mindful-inbox-flow.vercel.app/",
+    // },
   ];
 
   return (
